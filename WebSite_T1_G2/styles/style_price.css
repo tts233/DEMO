@@ -91,6 +91,9 @@ header nav ul li a:hover {
 main {
   padding: 20px;
 }
+main h1{
+  padding: 20px;
+}
 main section h2 {
   padding: 20px;
 }

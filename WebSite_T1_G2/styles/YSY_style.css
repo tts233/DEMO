@@ -1,0 +1,128 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  /* 未访问链接的样式 */
+.clickable {
+  color: rgb(74, 146, 235);  /* 设置链接的颜色为蓝色 */
+  text-decoration: none;  /* 去掉默认的下划线 */
+}
+
+/* 已访问链接的样式  */
+.clicked {
+  color: rgb(17, 0, 255);  
+
+} 
+
+
+/* 鼠标悬停在链接上的样式 */
+a:hover {
+  color: red;  /* 设置鼠标悬停时链接的颜色为红色 */
+  text-decoration: underline;  /* 鼠标悬停时显示下划线 */
+}
+
+/* 链接被点击时的样式 */
+a:active {
+  color: green;  /* 设置点击时链接的颜色为绿色 */
+}
+  h1
+  {
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left : 50px; /* 水平向右移动20px */
+  } 
+   h2 {
+    color: #333;
+
+  }
+  
+
+
+  /* 顶部导航栏样式 */
+  header {
+    background-color: #794c9f;
+    color: white;
+    padding: 10spx 500px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    margin: 0 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transform: translate(450px, -40px); /* 使用 transform 控制位置，避免干扰其他元素的布局 */
+
+  }
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top :-40px;
+    left : 450px; /* 水平向右移动20px */
+  }
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  /* img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px 0;
+} */
+  /* 主内容区域 */
+  main {
+    padding: 20px;
+  }
+  main section h2 {
+    padding: 20px;
+  }
+  .content-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-section h2 {
+    margin-top: 0;
+  }
+  .news_p{
+    float:right;
+     width:160 ;
+    height:90;
+    max-width: 150px;
+  }
+  /* 底部信息 */
+  footer {
+    background-color: #794c9f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

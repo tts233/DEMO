@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+
+.clickable {
+  color: rgb(74, 146, 235);  
+  text-decoration: none;  
+}
+
+.clicked {
+  color: rgb(17, 0, 255);  
+} 
+
+a:hover {
+  color: red; 
+  text-decoration: underline;  
+}
+ 
+a:active {
+  color: green;  
+}
+  h1
+  {
+    text-align: left;
+    position: relative;
+    top: 5px; 
+  } 
+   h2 {
+    color: #333;
+  }
+  
+  header {
+    background-color: #794c9f;
+    color: white;
+    padding: 10spx 500px;
+    text-align: center;
+  }
+  
+  header .logo h1 {
+    margin: 0 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transform: translate(450px, -40px); 
+  }
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top :-40px;
+    left : 450px; 
+  }
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  main {
+    padding: 20px;
+    font-size: 20px;
+  }
+ 
+  .content-section {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-section h2 {
+    margin-top: 0;
+  }
+
+  footer {
+    background-color: #794c9f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+
+  
